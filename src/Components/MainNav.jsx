@@ -14,9 +14,6 @@ export default function MainNav() {
               </a>
             </div>
             <ul class="nav navbar-nav">
-              <li class="active">
-                <a href="#">Home</a>
-              </li>
               <li>
                 <a href="https://github.com/SpencerPtrson">GitHub</a>
               </li>

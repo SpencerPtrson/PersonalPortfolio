@@ -1,8 +1,9 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import AboutMe from "../components/AboutMe";
 
 export default function IndexPage() {
   return (
-    <Container fluid>
+    <Container fluid style={{height: "100vh", backgroundColor: "aquamarine"}}>
       <Row>
         <Col
           xs={{ span: 4, offset: 4 }}
@@ -16,6 +17,14 @@ export default function IndexPage() {
             AA
         </Col>
       </Row>
+
+      <Row>
+          <Col>
+            <AboutMe />
+          </Col>
+      </Row>
+
+      
     </Container>
   );
 }
